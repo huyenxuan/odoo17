@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+        <!-- Action -->
+        <record id="action_school_information" model="ir.actions.act_window">
+            <field name="name">School Information</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">school.information</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="school_information_list_view"/>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create a new school for model
+                </p>
+            </field>
+        </record>
+
+        <!-- Menu -->
+        <menuitem id="school_menu_root"
+                  name="School"
+                  active="True"
+                  sequence="7"/>
+        <menuitem id="school_menu"
+                  name="School Information"
+                  parent="school_menu_root"
+                  action="action_school_information"
+                  sequence="2"/>
+
+        <!-- List View -->
+        <record id="school_information_list_view" model="ir.ui.view">
+            <field name="name">School Information List</field>
+            <field name="model">school.information</field>
+            <field name="arch" type="xml">
+                <tree string="Danh sách trường">
+                    <field name="name" optional="show"/>
+                    <field name="type" optional="show"/>
+                    <field name="email" optional="show"/>
+                    <field name="address" optional="show"/>
+                    <field name="hasOnline" optional="show"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Form View -->
+        <record id="school_information_form_view" model="ir.ui.view">
+            <field name="name">School Information Form</field>
+            <field name="model">school.information</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="type"/>
+                            <field name="email"/>
+                            <field name="address"/>
+                            <field name="hasOnline"/>
+                        </group>
+<!--                        <group>-->
+<!--                            <field name="document" filename="document_name"/>-->
+<!--                            <field name="document_name" invisable="1"/>-->
+<!--                        </group>-->
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

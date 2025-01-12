@@ -97,3 +97,755 @@
 2025-01-09 02:55:46,419 10896 INFO ? odoo.service.server: HTTP service (werkzeug) running on Laptop.lan:8069 
 2025-01-09 02:55:46,483 10896 INFO ? odoo.sql_db: Connection to the database failed 
 2025-01-09 02:55:46,555 10896 INFO ? odoo.sql_db: Connection to the database failed 
+2025-01-09 03:08:46,994 10896 INFO ? werkzeug: 127.0.0.1 - - [09/Jan/2025 03:08:46] "GET / HTTP/1.1" 303 - 1 0.006 0.075
+2025-01-09 03:08:47,318 10896 INFO ? werkzeug: 127.0.0.1 - - [09/Jan/2025 03:08:47] "GET /web HTTP/1.1" 303 - 2 0.011 0.126
+2025-01-09 03:08:49,434 10896 INFO ? werkzeug: 127.0.0.1 - - [09/Jan/2025 03:08:49] "GET /web/database/selector HTTP/1.1" 200 - 2 0.009 2.099
+2025-01-09 03:09:45,426 10896 INFO None odoo.service.db: Create database `odoo_test`. 
+2025-01-09 03:09:46,731 10896 INFO None odoo.modules.loading: loading 1 modules... 
+2025-01-09 03:09:46,732 10896 INFO None odoo.modules.loading: Loading module base (1/1) 
+2025-01-09 03:09:46,759 10896 INFO None odoo.modules.registry: module base: creating or updating database tables 
+2025-01-09 03:09:47,230 10896 INFO None odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2025-01-09 03:09:47,230 10896 INFO None odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2025-01-09 03:09:47,230 10896 INFO None odoo.models: Prepare computation of ir.module.module.views_by_module 
+2025-01-09 03:09:47,403 10896 INFO None odoo.models: Prepare computation of res.partner.user_id 
+2025-01-09 03:09:47,403 10896 INFO None odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2025-01-09 03:09:47,403 10896 INFO None odoo.models: Prepare computation of res.partner.complete_name 
+2025-01-09 03:09:47,403 10896 INFO None odoo.models: Prepare computation of res.partner.company_registry 
+2025-01-09 03:09:47,404 10896 INFO None odoo.models: Prepare computation of res.partner.commercial_company_name 
+2025-01-09 03:09:47,404 10896 INFO None odoo.models: Prepare computation of res.partner.partner_share 
+2025-01-09 03:09:47,466 10896 INFO None odoo.models: Prepare computation of res.currency.decimal_places 
+2025-01-09 03:09:47,503 10896 INFO None odoo.models: Prepare computation of res.company.uses_default_logo 
+2025-01-09 03:09:47,503 10896 INFO None odoo.models: Prepare computation of res.company.logo_web 
+2025-01-09 03:09:47,507 10896 INFO None odoo.models: Computing parent_path for table res_company... 
+2025-01-09 03:09:47,545 10896 INFO None odoo.models: Prepare computation of res.users.signature 
+2025-01-09 03:09:47,545 10896 INFO None odoo.models: Prepare computation of res.users.share 
+2025-01-09 03:09:49,499 10896 INFO None odoo.modules.loading: loading base/data/res_bank.xml 
+2025-01-09 03:09:49,506 10896 INFO None odoo.modules.loading: loading base/data/res.lang.csv 
+2025-01-09 03:09:49,551 10896 INFO None odoo.modules.loading: loading base/data/res_lang_data.xml 
+2025-01-09 03:09:49,592 10896 INFO None odoo.modules.loading: loading base/data/res_partner_data.xml 
+2025-01-09 03:09:49,659 10896 INFO None odoo.modules.loading: loading base/data/res_currency_data.xml 
+2025-01-09 03:09:50,208 10896 INFO None odoo.modules.loading: loading base/data/res_company_data.xml 
+2025-01-09 03:09:50,219 10896 INFO None odoo.modules.loading: loading base/data/res_users_data.xml 
+2025-01-09 03:09:52,548 10896 INFO None odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2025-01-09 03:09:52,561 10896 INFO None odoo.modules.loading: loading base/data/res_country_data.xml 
+2025-01-09 03:09:53,028 10896 INFO None odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2025-01-09 03:09:53,043 10896 INFO None odoo.modules.loading: loading base/security/base_groups.xml 
+2025-01-09 03:09:53,296 10896 INFO None odoo.modules.loading: loading base/security/base_security.xml 
+2025-01-09 03:09:53,425 10896 INFO None odoo.modules.loading: loading base/views/base_menus.xml 
+2025-01-09 03:09:53,510 10896 INFO None odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2025-01-09 03:09:53,529 10896 INFO None odoo.modules.loading: loading base/views/res_config_views.xml 
+2025-01-09 03:09:53,538 10896 INFO None odoo.modules.loading: loading base/data/res.country.state.csv 
+2025-01-09 03:09:54,465 10896 INFO None odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2025-01-09 03:09:54,597 10896 INFO None odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2025-01-09 03:09:54,613 10896 INFO None odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2025-01-09 03:09:54,631 10896 INFO None odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2025-01-09 03:09:54,663 10896 INFO None odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2025-01-09 03:09:54,681 10896 INFO None odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2025-01-09 03:09:54,700 10896 INFO None odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2025-01-09 03:09:54,724 10896 INFO None odoo.modules.loading: loading base/views/ir_model_views.xml 
+2025-01-09 03:09:54,881 10896 INFO None odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2025-01-09 03:09:54,904 10896 INFO None odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2025-01-09 03:09:54,935 10896 INFO None odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2025-01-09 03:09:54,957 10896 INFO None odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2025-01-09 03:09:54,979 10896 INFO None odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2025-01-09 03:09:55,028 10896 INFO None odoo.modules.loading: loading base/views/ir_default_views.xml 
+2025-01-09 03:09:55,050 10896 INFO None odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2025-01-09 03:09:55,070 10896 INFO None odoo.modules.loading: loading base/report/ir_model_report.xml 
+2025-01-09 03:09:55,076 10896 INFO None odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2025-01-09 03:09:55,084 10896 INFO None odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2025-01-09 03:09:55,103 10896 INFO None odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2025-01-09 03:09:55,118 10896 INFO None odoo.modules.loading: loading base/views/ir_module_views.xml 
+2025-01-09 03:09:55,166 10896 INFO None odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2025-01-09 03:09:55,234 10896 INFO None odoo.modules.loading: loading base/data/ir_module_module.xml 
+2025-01-09 03:09:55,315 10896 INFO None odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2025-01-09 03:09:55,319 10896 INFO None odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2025-01-09 03:09:55,329 10896 INFO None odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2025-01-09 03:09:55,344 10896 INFO None odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2025-01-09 03:09:55,358 10896 INFO None odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2025-01-09 03:09:55,372 10896 INFO None odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2025-01-09 03:09:55,393 10896 INFO None odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2025-01-09 03:09:55,401 10896 INFO None odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2025-01-09 03:09:55,414 10896 INFO None odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2025-01-09 03:09:55,429 10896 INFO None odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2025-01-09 03:09:55,446 10896 INFO None odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2025-01-09 03:09:55,469 10896 INFO None odoo.modules.loading: loading base/views/res_company_views.xml 
+2025-01-09 03:09:55,493 10896 INFO None odoo.modules.loading: loading base/views/res_lang_views.xml 
+2025-01-09 03:09:55,526 10896 INFO None odoo.modules.loading: loading base/views/res_partner_views.xml 
+2025-01-09 03:09:55,649 10896 INFO None odoo.modules.loading: loading base/views/res_bank_views.xml 
+2025-01-09 03:09:55,681 10896 INFO None odoo.modules.loading: loading base/views/res_country_views.xml 
+2025-01-09 03:09:55,721 10896 INFO None odoo.modules.loading: loading base/views/res_currency_views.xml 
+2025-01-09 03:09:55,759 10896 INFO None odoo.modules.loading: loading base/views/res_users_views.xml 
+2025-01-09 03:09:55,871 10896 INFO None odoo.modules.loading: loading base/views/res_users_identitycheck_views.xml 
+2025-01-09 03:09:55,884 10896 INFO None odoo.modules.loading: loading base/views/ir_property_views.xml 
+2025-01-09 03:09:55,902 10896 INFO None odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2025-01-09 03:09:55,913 10896 INFO None odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2025-01-09 03:09:55,946 10896 INFO None odoo.modules.loading: loading base/security/ir.model.access.csv 
+2025-01-09 03:09:56,097 10896 INFO None odoo.modules.loading: Module base: loading demo 
+2025-01-09 03:09:56,098 10896 INFO None odoo.modules.loading: loading base/data/res_users_demo.xml 
+2025-01-09 03:09:59,526 10896 INFO None odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2025-01-09 03:09:59,534 10896 INFO None odoo.modules.loading: loading base/data/res_currency_demo.xml 
+2025-01-09 03:09:59,542 10896 INFO None odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2025-01-09 03:09:59,914 10896 INFO None odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2025-01-09 03:09:59,922 10896 INFO None odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2025-01-09 03:10:00,269 10896 INFO None odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2025-01-09 03:10:01,305 10896 INFO None odoo.modules.loading: Module base loaded in 14.57s, 9083 queries (+9083 other) 
+2025-01-09 03:10:01,305 10896 INFO None odoo.modules.loading: 1 modules loaded in 14.57s, 9083 queries (+9083 extra) 
+2025-01-09 03:10:01,371 10896 INFO None odoo.modules.loading: updating modules list 
+2025-01-09 03:10:01,371 10896 INFO None odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-01-09 03:10:02,289 10896 INFO None odoo.modules.loading: loading 11 modules... 
+2025-01-09 03:10:02,289 10896 INFO None odoo.modules.loading: Loading module web (2/11) 
+2025-01-09 03:10:02,315 10896 INFO None odoo.modules.registry: module web: creating or updating database tables 
+2025-01-09 03:10:03,047 10896 INFO None odoo.modules.loading: loading web/security/ir.model.access.csv 
+2025-01-09 03:10:03,065 10896 INFO None odoo.modules.loading: loading web/views/webclient_templates.xml 
+2025-01-09 03:10:03,132 10896 INFO None odoo.modules.loading: loading web/views/report_templates.xml 
+2025-01-09 03:10:03,230 10896 INFO None odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2025-01-09 03:10:03,248 10896 INFO None odoo.modules.loading: loading web/views/partner_view.xml 
+2025-01-09 03:10:03,257 10896 INFO None odoo.modules.loading: loading web/views/speedscope_template.xml 
+2025-01-09 03:10:03,264 10896 INFO None odoo.modules.loading: loading web/views/neutralize_views.xml 
+2025-01-09 03:10:03,272 10896 INFO None odoo.modules.loading: loading web/data/ir_attachment.xml 
+2025-01-09 03:10:03,280 10896 INFO None odoo.modules.loading: loading web/data/report_layout.xml 
+2025-01-09 03:10:03,340 10896 INFO None odoo.modules.loading: Module web loaded in 1.05s, 989 queries (+989 other) 
+2025-01-09 03:10:03,340 10896 INFO None odoo.modules.loading: Loading module auth_totp (3/11) 
+2025-01-09 03:10:03,544 10896 INFO None odoo.modules.registry: module auth_totp: creating or updating database tables 
+2025-01-09 03:10:03,632 10896 INFO None odoo.modules.loading: loading auth_totp/security/security.xml 
+2025-01-09 03:10:03,672 10896 INFO None odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2025-01-09 03:10:03,682 10896 INFO None odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2025-01-09 03:10:03,694 10896 INFO None odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2025-01-09 03:10:03,720 10896 INFO None odoo.modules.loading: loading auth_totp/views/templates.xml 
+2025-01-09 03:10:03,726 10896 INFO None odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2025-01-09 03:10:03,747 10896 INFO None odoo.modules.loading: Module auth_totp loaded in 0.41s, 179 queries (+179 other) 
+2025-01-09 03:10:03,747 10896 INFO None odoo.modules.loading: Loading module base_import (4/11) 
+2025-01-09 03:10:03,809 10896 INFO None odoo.modules.registry: module base_import: creating or updating database tables 
+2025-01-09 03:10:04,422 10896 INFO None odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2025-01-09 03:10:04,447 10896 INFO None odoo.modules.loading: Module base_import loaded in 0.70s, 801 queries (+801 other) 
+2025-01-09 03:10:04,447 10896 INFO None odoo.modules.loading: Loading module base_import_module (5/11) 
+2025-01-09 03:10:04,499 10896 INFO None odoo.modules.registry: module base_import_module: creating or updating database tables 
+2025-01-09 03:10:04,595 10896 INFO None odoo.modules.loading: loading base_import_module/security/ir.model.access.csv 
+2025-01-09 03:10:04,607 10896 INFO None odoo.modules.loading: loading base_import_module/views/base_import_module_view.xml 
+2025-01-09 03:10:04,627 10896 INFO None odoo.modules.loading: loading base_import_module/views/ir_module_views.xml 
+2025-01-09 03:10:04,679 10896 INFO None odoo.modules.loading: Module base_import_module loaded in 0.23s, 154 queries (+154 other) 
+2025-01-09 03:10:04,679 10896 INFO None odoo.modules.loading: Loading module base_setup (6/11) 
+2025-01-09 03:10:04,720 10896 INFO None odoo.modules.registry: module base_setup: creating or updating database tables 
+2025-01-09 03:10:04,781 10896 INFO None odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2025-01-09 03:10:04,789 10896 INFO None odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2025-01-09 03:10:04,823 10896 INFO None odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2025-01-09 03:10:04,845 10896 INFO None odoo.modules.loading: Module base_setup loaded in 0.17s, 139 queries (+139 other) 
+2025-01-09 03:10:04,845 10896 INFO None odoo.modules.loading: Loading module bus (7/11) 
+2025-01-09 03:10:04,928 10896 INFO None odoo.modules.registry: module bus: creating or updating database tables 
+2025-01-09 03:10:05,027 10896 INFO None odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2025-01-09 03:10:05,053 10896 INFO None odoo.modules.loading: Module bus loaded in 0.21s, 116 queries (+116 other) 
+2025-01-09 03:10:05,053 10896 INFO None odoo.modules.loading: Loading module web_tour (8/11) 
+2025-01-09 03:10:05,085 10896 INFO None odoo.modules.registry: module web_tour: creating or updating database tables 
+2025-01-09 03:10:05,121 10896 INFO None odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2025-01-09 03:10:05,137 10896 INFO None odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2025-01-09 03:10:05,149 10896 INFO None odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2025-01-09 03:10:05,189 10896 INFO None odoo.modules.loading: Module web_tour loaded in 0.14s, 104 queries (+104 other) 
+2025-01-09 03:10:05,189 10896 INFO None odoo.modules.loading: Loading module iap (9/11) 
+2025-01-09 03:10:05,236 10896 INFO None odoo.modules.registry: module iap: creating or updating database tables 
+2025-01-09 03:10:05,321 10896 INFO None odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2025-01-09 03:10:05,333 10896 INFO None odoo.modules.loading: loading iap/security/ir_rule.xml 
+2025-01-09 03:10:05,342 10896 INFO None odoo.modules.loading: loading iap/views/iap_views.xml 
+2025-01-09 03:10:05,367 10896 INFO None odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2025-01-09 03:10:05,397 10896 INFO None odoo.modules.loading: Module iap loaded in 0.21s, 151 queries (+151 other) 
+2025-01-09 03:10:05,397 10896 INFO None odoo.modules.loading: Loading module web_editor (10/11) 
+2025-01-09 03:10:05,581 10896 INFO None odoo.modules.registry: module web_editor: creating or updating database tables 
+2025-01-09 03:10:06,419 10896 INFO None odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2025-01-09 03:10:06,435 10896 INFO None odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2025-01-09 03:10:06,442 10896 INFO None odoo.modules.loading: loading web_editor/views/editor.xml 
+2025-01-09 03:10:06,482 10896 INFO None odoo.modules.loading: loading web_editor/views/snippets.xml 
+2025-01-09 03:10:06,559 10896 INFO None odoo.modules.loading: Module web_editor loaded in 1.16s, 907 queries (+907 other) 
+2025-01-09 03:10:06,559 10896 INFO None odoo.modules.loading: Loading module web_unsplash (11/11) 
+2025-01-09 03:10:06,609 10896 INFO None odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2025-01-09 03:10:06,670 10896 INFO None odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2025-01-09 03:10:06,706 10896 INFO None odoo.modules.loading: Module web_unsplash loaded in 0.15s, 95 queries (+95 other) 
+2025-01-09 03:10:06,706 10896 INFO None odoo.modules.loading: 11 modules loaded in 4.42s, 3635 queries (+3635 extra) 
+2025-01-09 03:10:06,987 10896 INFO None odoo.modules.loading: Modules loaded. 
+2025-01-09 03:10:06,991 10896 INFO None odoo.modules.registry: Registry loaded in 20.282s 
+2025-01-09 03:10:09,538 10896 INFO None odoo.addons.base.models.res_users: Login successful for db:odoo_test login:admin from 127.0.0.1 
+2025-01-09 03:10:09,549 10896 INFO None werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:09] "POST /web/database/create HTTP/1.1" 303 - 18754 9.002 19.904
+2025-01-09 03:10:09,570 10896 INFO odoo_test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-01-09 03:10:09,588 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:09] "GET /web HTTP/1.1" 303 - 5 0.005 0.027
+2025-01-09 03:10:10,252 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:10] "GET /web/login HTTP/1.1" 200 - 51 0.021 0.326
+2025-01-09 03:10:17,440 10896 INFO odoo_test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/0870826/web.assets_frontend.min.css (id:189) 
+2025-01-09 03:10:17,529 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:17] "GET /web/assets/0870826/web.assets_frontend.min.css HTTP/1.1" 200 - 12 0.053 7.196
+2025-01-09 03:10:17,539 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:17] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.013 0.214
+2025-01-09 03:10:17,572 10896 INFO odoo_test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/252bab7/web.assets_frontend_minimal.min.js (id:190) 
+2025-01-09 03:10:17,621 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:17] "GET /web/assets/252bab7/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 9 0.019 0.289
+2025-01-09 03:10:19,644 10896 INFO odoo_test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/d8b2195/web.assets_frontend_lazy.min.js (id:191) 
+2025-01-09 03:10:20,049 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:20] "GET /web/assets/d8b2195/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 9 0.004 2.092
+2025-01-09 03:10:20,233 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:20] "GET /web/webclient/translations/1736392220213 HTTP/1.1" 200 - 4 0.009 0.009
+2025-01-09 03:10:35,681 10896 INFO odoo_test odoo.addons.base.models.res_users: Login successful for db:odoo_test login:admin from 127.0.0.1 
+2025-01-09 03:10:35,690 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:35] "POST /web/login HTTP/1.1" 303 - 27 0.027 1.250
+2025-01-09 03:10:35,991 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:35] "GET /web HTTP/1.1" 200 - 63 0.036 0.260
+2025-01-09 03:10:36,393 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:36] "GET /web/webclient/load_menus/172bef6a7af96680ac3a6d836ca7e789cae2e213afe9556bbb3468597f3484c3 HTTP/1.1" 200 - 1 0.000 0.056
+2025-01-09 03:10:36,407 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:36] "GET /web/webclient/translations/c097a4426362f8e75854b784c5418b565eb85939?lang=en_US HTTP/1.1" 200 - 3 0.015 0.054
+2025-01-09 03:10:45,083 10896 INFO odoo_test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/40b9226/web.assets_web.min.css (id:192) 
+2025-01-09 03:10:45,226 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:45] "GET /web/assets/40b9226/web.assets_web.min.css HTTP/1.1" 200 - 12 0.061 8.829
+2025-01-09 03:10:47,777 10896 INFO odoo_test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/3102927/web.assets_web.min.js (id:193) 
+2025-01-09 03:10:48,111 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:48] "GET /web/assets/3102927/web.assets_web.min.js HTTP/1.1" 200 - 11 0.008 11.767
+2025-01-09 03:10:48,385 10896 INFO odoo_test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/2dae4e6/bus.websocket_worker_assets.min.js (id:194) 
+2025-01-09 03:10:48,423 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:48] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 200 - 8 0.002 0.068
+2025-01-09 03:10:48,694 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:48] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.007
+2025-01-09 03:10:48,733 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:48] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.006 0.009
+2025-01-09 03:10:48,762 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:48] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.016
+2025-01-09 03:10:48,772 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:48] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.012 0.030
+2025-01-09 03:10:48,836 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:48] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 48 0.041 0.062
+2025-01-09 03:10:49,029 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.002
+2025-01-09 03:10:49,076 10896 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-01-09 03:10:49,236 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:49] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.063
+2025-01-09 03:10:49,339 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.039 0.132
+2025-01-09 03:10:49,339 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:49] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.011 0.159
+2025-01-09 03:10:49,628 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:49] "GET /web/offline HTTP/1.1" 200 - 6 0.006 0.019
+2025-01-09 03:10:50,009 10896 INFO ? werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:50] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 200 - 0 0.000 0.001
+2025-01-09 03:10:59,822 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:10:59] "POST /web/action/load HTTP/1.1" 200 - 8 0.007 0.005
+2025-01-09 03:11:00,169 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:00] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 7 0.005 0.012
+2025-01-09 03:11:00,441 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:00] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 26 0.010 0.013
+2025-01-09 03:11:00,492 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:00] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.002 0.002
+2025-01-09 03:11:00,795 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:00] "POST /base_setup/data HTTP/1.1" 200 - 6 0.001 0.003
+2025-01-09 03:11:00,838 10896 INFO ? werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:00] "GET /base_setup/static/src/img/google_play.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-01-09 03:11:01,151 10896 INFO ? werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:01] "GET /base_setup/static/src/img/app_store.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-01-09 03:11:04,155 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:04] "GET /web?debug=1 HTTP/1.1" 200 - 22 0.013 0.028
+2025-01-09 03:11:04,380 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:04] "GET /web/webclient/load_menus/6c9b34af77f88a2543f34b0043e0bf8751ec41010716f4a08d62eca503c54fa0 HTTP/1.1" 200 - 1 0.000 0.019
+2025-01-09 03:11:04,508 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:04] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.001 0.006
+2025-01-09 03:11:04,792 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:04] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.006
+2025-01-09 03:11:04,838 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:04] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.004 0.005
+2025-01-09 03:11:04,852 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:04] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.004 0.018
+2025-01-09 03:11:04,868 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:04] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.015
+2025-01-09 03:11:04,874 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:04] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.008 0.016
+2025-01-09 03:11:05,130 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.004
+2025-01-09 03:11:05,272 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.035 0.065
+2025-01-09 03:11:05,272 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:05] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.097
+2025-01-09 03:11:07,187 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:07] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:11:11,468 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:11] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.018 0.022
+2025-01-09 03:11:11,502 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:11:11] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.069
+2025-01-09 03:16:29,773 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:29] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.005 0.010
+2025-01-09 03:16:30,114 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:30] "POST /web/action/load HTTP/1.1" 200 - 9 0.008 0.014
+2025-01-09 03:16:30,420 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:30] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.008
+2025-01-09 03:16:30,460 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:30] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 03:16:30,514 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:30] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.018 0.023
+2025-01-09 03:16:30,535 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:30] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.057
+2025-01-09 03:16:30,823 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:30] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.004 0.020
+2025-01-09 03:16:30,848 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:30] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.008 0.015
+2025-01-09 03:16:30,849 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:30] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.007 0.012
+2025-01-09 03:16:31,146 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:31] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.002
+2025-01-09 03:16:32,696 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:32] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:16:32,967 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:32] "POST /web/action/load HTTP/1.1" 200 - 8 0.001 0.007
+2025-01-09 03:16:33,196 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:33] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 9 0.005 0.011
+2025-01-09 03:16:33,290 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:33] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.002 0.002
+2025-01-09 03:16:34,554 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:34] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 5 0.003 0.006
+2025-01-09 03:16:34,868 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 03:16:35,546 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:35] "POST /web/dataset/call_button HTTP/1.1" 200 - 1408 0.358 0.323
+2025-01-09 03:16:39,961 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:39] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.019 0.028
+2025-01-09 03:16:40,277 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:16:40] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.003 0.001
+2025-01-09 03:17:43,297 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:43] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.005 0.010
+2025-01-09 03:17:43,557 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:43] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.007
+2025-01-09 03:17:43,773 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:43] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.007
+2025-01-09 03:17:43,786 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:43] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.002 0.008
+2025-01-09 03:17:43,814 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:43] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.001
+2025-01-09 03:17:43,847 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:43] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.016 0.015
+2025-01-09 03:17:43,912 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:43] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.020
+2025-01-09 03:17:44,124 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:44] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.003 0.004
+2025-01-09 03:17:44,149 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:44] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.005 0.019
+2025-01-09 03:17:44,529 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:44] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.003
+2025-01-09 03:17:45,682 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:45] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:17:46,831 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:46] "POST /web/action/load HTTP/1.1" 200 - 8 0.003 0.008
+2025-01-09 03:17:47,087 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:47] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:17:47,165 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:47] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 03:17:48,750 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:48] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.001 0.004
+2025-01-09 03:17:49,065 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 03:17:49,686 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:49] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.325 0.299
+2025-01-09 03:17:51,378 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:51] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.014 0.020
+2025-01-09 03:17:51,697 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:51] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.006 0.035
+2025-01-09 03:17:55,787 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:55] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.031 0.021
+2025-01-09 03:17:56,010 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:17:56] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.006
+2025-01-09 03:18:01,061 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:18:01] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.012 0.021
+2025-01-09 03:18:01,386 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:18:01] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.006 0.031
+2025-01-09 03:18:03,001 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:18:03] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.003 0.007
+2025-01-09 03:18:03,264 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:18:03] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.008
+2025-01-09 03:18:03,470 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:18:03] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.000 0.016
+2025-01-09 03:18:03,470 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:18:03] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.007 0.006
+2025-01-09 03:18:03,487 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:18:03] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.004
+2025-01-09 03:18:03,526 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:18:03] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.012 0.026
+2025-01-09 03:18:03,619 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:18:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.025
+2025-01-09 03:18:03,800 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:18:03] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.004 0.011
+2025-01-09 03:18:03,809 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:18:03] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.008 0.019
+2025-01-09 03:18:04,187 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:18:04] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.003
+2025-01-09 03:18:05,342 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:18:05] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.004
+2025-01-09 03:20:30,686 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:30] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.002 0.014
+2025-01-09 03:20:30,919 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:30] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.007
+2025-01-09 03:20:31,157 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:31] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.001 0.007
+2025-01-09 03:20:31,166 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:31] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.017
+2025-01-09 03:20:31,198 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:31] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.003
+2025-01-09 03:20:31,229 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:31] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.017 0.017
+2025-01-09 03:20:31,283 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:31] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.023
+2025-01-09 03:20:31,534 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:31] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.003 0.008
+2025-01-09 03:20:31,580 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:31] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.006 0.036
+2025-01-09 03:20:31,892 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:31] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.003
+2025-01-09 03:20:33,061 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:33] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:20:33,745 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:33] "POST /web/action/load HTTP/1.1" 200 - 8 0.001 0.010
+2025-01-09 03:20:33,990 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:33] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.001 0.003
+2025-01-09 03:20:34,069 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:34] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.001 0.003
+2025-01-09 03:20:35,358 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:35] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.001 0.004
+2025-01-09 03:20:35,681 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 03:20:36,390 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:36] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.347 0.366
+2025-01-09 03:20:42,490 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:42] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.022 0.022
+2025-01-09 03:20:42,810 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:20:42] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.002 0.002
+2025-01-09 03:21:57,413 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:21:57] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.003 0.012
+2025-01-09 03:21:57,673 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:21:57] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.011
+2025-01-09 03:21:57,893 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:21:57] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.007 0.006
+2025-01-09 03:21:57,893 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:21:57] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.013
+2025-01-09 03:21:57,922 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:21:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.006
+2025-01-09 03:21:57,924 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:21:57] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.006 0.017
+2025-01-09 03:21:58,028 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:21:58] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.011 0.016
+2025-01-09 03:21:58,229 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:21:58] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.004 0.005
+2025-01-09 03:21:58,256 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:21:58] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.033
+2025-01-09 03:21:58,554 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:21:58] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.005
+2025-01-09 03:21:59,733 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:21:59] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:22:01,031 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:22:01] "POST /web/action/load HTTP/1.1" 200 - 8 0.006 0.006
+2025-01-09 03:22:01,269 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:22:01] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.001 0.003
+2025-01-09 03:22:01,363 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:22:01] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 03:22:02,763 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:22:02] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.000 0.007
+2025-01-09 03:22:03,083 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 03:22:03,733 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:22:03] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.317 0.337
+2025-01-09 03:22:08,064 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:22:08] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.022 0.027
+2025-01-09 03:22:08,377 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:22:08] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.001 0.003
+2025-01-09 03:23:37,706 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:37] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.007 0.009
+2025-01-09 03:23:37,951 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:37] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.011
+2025-01-09 03:23:38,180 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:38] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.019
+2025-01-09 03:23:38,181 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:38] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.008 0.014
+2025-01-09 03:23:38,206 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.002 0.004
+2025-01-09 03:23:38,206 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:38] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.003 0.010
+2025-01-09 03:23:38,312 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.012 0.017
+2025-01-09 03:23:38,512 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:38] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.001 0.007
+2025-01-09 03:23:38,543 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:38] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.036
+2025-01-09 03:23:38,836 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:38] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.006
+2025-01-09 03:23:40,032 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:40] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 03:23:41,958 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:41] "POST /web/action/load HTTP/1.1" 200 - 8 0.002 0.005
+2025-01-09 03:23:42,214 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:42] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.000 0.004
+2025-01-09 03:23:42,274 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:42] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:23:43,500 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:43] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.002 0.006
+2025-01-09 03:23:43,818 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 03:23:44,620 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:44] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.413 0.392
+2025-01-09 03:23:47,939 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:47] "POST /web/action/load HTTP/1.1" 200 - 8 0.002 0.007
+2025-01-09 03:23:48,268 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:48] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 1 0.001 0.006
+2025-01-09 03:23:48,539 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:48] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 10 0.003 0.009
+2025-01-09 03:23:48,586 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:48] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.000 0.004
+2025-01-09 03:23:48,916 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:48] "POST /base_setup/data HTTP/1.1" 200 - 5 0.001 0.003
+2025-01-09 03:23:52,723 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:52] "GET /web?debug= HTTP/1.1" 200 - 9 0.002 0.014
+2025-01-09 03:23:53,189 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:53] "POST /web/action/load HTTP/1.1" 200 - 9 0.001 0.011
+2025-01-09 03:23:53,384 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:53] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.005 0.156
+2025-01-09 03:23:53,397 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:53] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.002 0.172
+2025-01-09 03:23:53,420 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:53] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.033 0.163
+2025-01-09 03:23:53,442 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:53] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:23:53,543 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:53] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 36 0.008 0.018
+2025-01-09 03:23:53,732 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:53] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.002 0.008
+2025-01-09 03:23:53,765 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:53] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.039
+2025-01-09 03:23:54,067 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:54] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.002 0.004
+2025-01-09 03:23:55,221 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:55] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.001
+2025-01-09 03:23:58,837 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:58] "GET /web?debug= HTTP/1.1" 200 - 9 0.007 0.007
+2025-01-09 03:23:59,097 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:59] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.006
+2025-01-09 03:23:59,286 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:59] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.010
+2025-01-09 03:23:59,286 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:59] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.004 0.006
+2025-01-09 03:23:59,305 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:23:59,328 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 36 0.010 0.015
+2025-01-09 03:23:59,458 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:59] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.026
+2025-01-09 03:23:59,617 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:59] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.003 0.013
+2025-01-09 03:23:59,626 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:23:59] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.008 0.018
+2025-01-09 03:24:00,011 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:00] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.003
+2025-01-09 03:24:01,167 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:01] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.002
+2025-01-09 03:24:04,792 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:04] "POST /web/action/load HTTP/1.1" 200 - 8 0.001 0.009
+2025-01-09 03:24:05,037 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:05] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 1 0.000 0.005
+2025-01-09 03:24:05,135 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:05] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 8 0.004 0.006
+2025-01-09 03:24:05,362 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:05] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.000 0.002
+2025-01-09 03:24:05,487 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:05] "POST /base_setup/data HTTP/1.1" 200 - 5 0.000 0.003
+2025-01-09 03:24:08,404 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:08] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.005 0.012
+2025-01-09 03:24:08,892 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:08] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.007
+2025-01-09 03:24:08,959 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:08] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.006 0.008
+2025-01-09 03:24:08,975 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:08] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.003 0.027
+2025-01-09 03:24:08,978 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:08] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.016 0.016
+2025-01-09 03:24:09,136 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:09] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:24:09,260 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:09] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.012 0.023
+2025-01-09 03:24:09,297 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:09] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.003 0.005
+2025-01-09 03:24:09,330 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:09] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.040
+2025-01-09 03:24:09,625 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:09] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.006
+2025-01-09 03:24:11,254 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:11] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:24:12,291 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:12] "POST /web/action/load HTTP/1.1" 200 - 8 0.004 0.008
+2025-01-09 03:24:12,545 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:12] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.001 0.001
+2025-01-09 03:24:12,625 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:12] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:24:14,269 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:14] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.002 0.006
+2025-01-09 03:24:14,588 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 03:24:15,248 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:24:15] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.335 0.330
+2025-01-09 03:27:44,024 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:44] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.007 0.012
+2025-01-09 03:27:44,265 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:44] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.010
+2025-01-09 03:27:44,494 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:44] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.004 0.003
+2025-01-09 03:27:44,504 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:44] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.002 0.016
+2025-01-09 03:27:44,529 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:44] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.003 0.011
+2025-01-09 03:27:44,536 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:44] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.005
+2025-01-09 03:27:44,623 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:44] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.013 0.017
+2025-01-09 03:27:44,834 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:44] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.002 0.006
+2025-01-09 03:27:44,868 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:44] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.038
+2025-01-09 03:27:45,165 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:45] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.004
+2025-01-09 03:27:46,374 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:46] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 03:27:47,065 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:47] "POST /web/action/load HTTP/1.1" 200 - 8 0.005 0.005
+2025-01-09 03:27:47,324 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:47] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.001 0.001
+2025-01-09 03:27:47,389 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:47] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:27:48,534 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:48] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.001 0.005
+2025-01-09 03:27:48,853 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 03:27:49,529 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:27:49] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.364 0.316
+2025-01-09 03:45:32,806 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:32] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.027 0.093
+2025-01-09 03:45:32,990 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:32] "POST /web/action/load HTTP/1.1" 200 - 9 0.026 0.014
+2025-01-09 03:45:33,292 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:33] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.009 0.009
+2025-01-09 03:45:33,332 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:33] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.003 0.009
+2025-01-09 03:45:33,412 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:33] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.013 0.064
+2025-01-09 03:45:33,422 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:33] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.006 0.077
+2025-01-09 03:45:33,666 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:33] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.004
+2025-01-09 03:45:33,720 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:33] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.036 0.022
+2025-01-09 03:45:33,739 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:33] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.070
+2025-01-09 03:45:33,747 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:33] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.002 0.005
+2025-01-09 03:45:35,807 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:35] "POST /web/action/load HTTP/1.1" 200 - 8 0.002 0.008
+2025-01-09 03:45:36,065 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:36] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:45:36,078 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:36] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2025-01-09 03:45:36,142 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:36] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:45:37,155 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:37] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.002 0.005
+2025-01-09 03:45:37,477 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 03:45:38,165 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:45:38] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.379 0.311
+2025-01-09 03:55:22,920 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:22] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.003 0.024
+2025-01-09 03:55:23,168 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:23] "POST /web/action/load HTTP/1.1" 200 - 9 0.006 0.005
+2025-01-09 03:55:23,388 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:23] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.013
+2025-01-09 03:55:23,389 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:23] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.008 0.007
+2025-01-09 03:55:23,407 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:23] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:55:23,441 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:23] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.014 0.016
+2025-01-09 03:55:23,534 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:23] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.035
+2025-01-09 03:55:23,724 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:23] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.008 0.014
+2025-01-09 03:55:23,763 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:23] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.008 0.051
+2025-01-09 03:55:24,149 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:24] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.003
+2025-01-09 03:55:25,089 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:25] "POST /web/action/load HTTP/1.1" 200 - 8 0.002 0.007
+2025-01-09 03:55:25,415 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:25] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:55:25,600 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:25] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.001 0.001
+2025-01-09 03:55:25,678 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:25] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 03:55:27,021 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:27] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.000 0.007
+2025-01-09 03:55:27,335 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 03:55:27,960 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:27] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.330 0.298
+2025-01-09 03:55:30,626 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:30] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.003 0.010
+2025-01-09 03:55:31,127 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:31] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.005 0.011
+2025-01-09 03:55:31,146 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:31] "POST /web/action/load HTTP/1.1" 200 - 9 0.024 0.012
+2025-01-09 03:55:31,161 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:31] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.002 0.008
+2025-01-09 03:55:31,161 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:31] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.003 0.009
+2025-01-09 03:55:31,381 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:31] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.002 0.004
+2025-01-09 03:55:31,471 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:31] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:55:31,486 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:31] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.003
+2025-01-09 03:55:31,750 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:31] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.024 0.023
+2025-01-09 03:55:31,770 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:31] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.063
+2025-01-09 03:55:33,349 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:33] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.004
+2025-01-09 03:55:36,311 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.023 0.020
+2025-01-09 03:55:36,521 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:55:36] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.001 0.003
+2025-01-09 03:57:54,681 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.054
+2025-01-09 03:57:54,724 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.024 0.072
+2025-01-09 03:57:54,743 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.110
+2025-01-09 03:57:55,956 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:55] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.005 0.010
+2025-01-09 03:57:56,432 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:56] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.001 0.010
+2025-01-09 03:57:56,435 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:56] "POST /web/action/load HTTP/1.1" 200 - 9 0.009 0.006
+2025-01-09 03:57:56,461 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:56] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.005 0.019
+2025-01-09 03:57:56,463 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:56] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.002 0.011
+2025-01-09 03:57:56,677 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:56] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.002 0.004
+2025-01-09 03:57:56,766 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:56] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 03:57:56,783 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:56] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.004
+2025-01-09 03:57:57,034 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.027 0.012
+2025-01-09 03:57:57,050 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:57] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.050
+2025-01-09 03:57:58,511 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:58] "POST /web/action/load HTTP/1.1" 200 - 8 0.000 0.007
+2025-01-09 03:57:58,843 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:58] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.001 0.002
+2025-01-09 03:57:58,921 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:58] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.001 0.003
+2025-01-09 03:57:59,108 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:57:59] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 03:58:00,183 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:00] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.001 0.005
+2025-01-09 03:58:00,499 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 03:58:01,424 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:01] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.359 0.569
+2025-01-09 03:58:04,413 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:04] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.005 0.014
+2025-01-09 03:58:04,873 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:04] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.007 0.008
+2025-01-09 03:58:04,874 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:04] "POST /web/action/load HTTP/1.1" 200 - 9 0.007 0.013
+2025-01-09 03:58:04,915 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:04] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.004 0.021
+2025-01-09 03:58:04,916 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:04] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.003 0.006
+2025-01-09 03:58:05,130 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:05] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.011
+2025-01-09 03:58:05,213 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 03:58:05,245 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:05] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.002
+2025-01-09 03:58:05,490 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.020 0.022
+2025-01-09 03:58:05,509 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:05] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.058
+2025-01-09 03:58:06,992 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:06] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 03:58:22,629 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:22] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.021 0.015
+2025-01-09 03:58:22,691 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:22] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.006 0.060
+2025-01-09 03:58:24,292 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:24] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.033 0.023
+2025-01-09 03:58:24,608 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:58:24] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.003
+2025-01-09 03:59:00,093 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:00] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.005 0.013
+2025-01-09 03:59:00,546 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:00] "POST /web/action/load HTTP/1.1" 200 - 9 0.006 0.010
+2025-01-09 03:59:00,554 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:00] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.011 0.013
+2025-01-09 03:59:00,573 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:00] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.004 0.006
+2025-01-09 03:59:00,580 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:00] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.003 0.006
+2025-01-09 03:59:00,801 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:00] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.011
+2025-01-09 03:59:00,870 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:00] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.002
+2025-01-09 03:59:00,902 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:00] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.003
+2025-01-09 03:59:01,159 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:01] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.021 0.020
+2025-01-09 03:59:01,175 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:01] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.052
+2025-01-09 03:59:02,700 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:02] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2025-01-09 03:59:03,973 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:03] "POST /web/action/load HTTP/1.1" 200 - 8 0.002 0.008
+2025-01-09 03:59:04,231 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:04] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:59:04,292 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:04] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 03:59:05,457 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:05] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.000 0.006
+2025-01-09 03:59:05,774 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 03:59:06,486 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:06] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.346 0.369
+2025-01-09 03:59:38,680 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:38] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.005 0.010
+2025-01-09 03:59:39,150 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:39] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.006 0.005
+2025-01-09 03:59:39,155 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:39] "POST /web/action/load HTTP/1.1" 200 - 9 0.006 0.010
+2025-01-09 03:59:39,186 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:39] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.005 0.006
+2025-01-09 03:59:39,191 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:39] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.007 0.013
+2025-01-09 03:59:39,431 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:39] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.022
+2025-01-09 03:59:39,488 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:39] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:59:39,519 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:39] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.002
+2025-01-09 03:59:39,787 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:39] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.023 0.015
+2025-01-09 03:59:39,807 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:39] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.056
+2025-01-09 03:59:41,295 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:41] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:59:42,160 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:42] "POST /web/action/load HTTP/1.1" 200 - 8 0.002 0.006
+2025-01-09 03:59:42,418 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:42] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 03:59:42,482 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:42] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.000 0.004
+2025-01-09 03:59:43,846 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:43] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.002 0.005
+2025-01-09 03:59:44,174 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 03:59:44,876 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:44] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.357 0.350
+2025-01-09 03:59:46,444 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:46] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.004 0.012
+2025-01-09 03:59:46,893 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:46] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.004 0.005
+2025-01-09 03:59:46,901 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:46] "POST /web/action/load HTTP/1.1" 200 - 9 0.008 0.009
+2025-01-09 03:59:46,930 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:46] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.003 0.010
+2025-01-09 03:59:46,935 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:46] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.007 0.013
+2025-01-09 03:59:47,159 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:47] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.009
+2025-01-09 03:59:47,229 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:47] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 03:59:47,261 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:47] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.002
+2025-01-09 03:59:47,529 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:47] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.025 0.025
+2025-01-09 03:59:47,549 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:47] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.068
+2025-01-09 03:59:49,121 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 03:59:49] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 04:04:04,306 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:04] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.006 0.010
+2025-01-09 04:04:04,560 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:04] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.010
+2025-01-09 04:04:04,780 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:04] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.005 0.005
+2025-01-09 04:04:04,793 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:04] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.002 0.021
+2025-01-09 04:04:04,821 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:04] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.007 0.016
+2025-01-09 04:04:04,821 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:04] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.001 0.011
+2025-01-09 04:04:04,898 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:04] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 04:04:05,157 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:05] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.010
+2025-01-09 04:04:05,165 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.027 0.025
+2025-01-09 04:04:05,187 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:05] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.069
+2025-01-09 04:04:06,710 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:06] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 04:04:07,483 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:07] "POST /web/action/load HTTP/1.1" 200 - 8 0.005 0.006
+2025-01-09 04:04:07,736 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:07] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.001 0.001
+2025-01-09 04:04:07,815 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:07] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.001 0.002
+2025-01-09 04:04:08,984 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:08] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.000 0.006
+2025-01-09 04:04:09,297 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 04:04:09,959 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:09] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.355 0.310
+2025-01-09 04:04:16,154 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.021 0.022
+2025-01-09 04:04:16,473 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:16] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.002 0.003
+2025-01-09 04:04:25,276 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:25] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.035 0.021
+2025-01-09 04:04:25,603 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:25] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.004
+2025-01-09 04:04:26,342 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:26] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.015 0.017
+2025-01-09 04:04:26,659 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:26] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.001 0.035
+2025-01-09 04:04:29,809 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:29] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.025 0.023
+2025-01-09 04:04:30,034 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:30] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.003
+2025-01-09 04:04:32,488 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:32] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.001 0.004
+2025-01-09 04:04:33,956 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:33] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.002 0.004
+2025-01-09 04:04:34,219 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 04:04:34,913 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:04:34] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.360 0.337
+2025-01-09 04:05:57,515 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:05:57] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.005 0.011
+2025-01-09 04:05:57,774 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:05:57] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.009
+2025-01-09 04:05:58,003 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:05:58] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.000 0.007
+2025-01-09 04:05:58,014 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:05:58] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.003 0.006
+2025-01-09 04:05:58,047 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:05:58] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.002
+2025-01-09 04:05:58,076 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:05:58] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.018 0.013
+2025-01-09 04:05:58,135 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:05:58] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.028
+2025-01-09 04:05:58,347 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:05:58] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.006 0.015
+2025-01-09 04:05:58,397 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:05:58] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.003 0.007
+2025-01-09 04:05:58,734 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:05:58] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.002
+2025-01-09 04:05:59,880 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:05:59] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 04:06:02,158 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:06:02] "POST /web/action/load HTTP/1.1" 200 - 8 0.003 0.007
+2025-01-09 04:06:02,407 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:06:02] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 04:06:02,485 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:06:02] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.001 0.001
+2025-01-09 04:06:04,163 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:06:04] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.001 0.007
+2025-01-09 04:06:04,480 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 04:06:05,175 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:06:05] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.320 0.378
+2025-01-09 04:06:13,068 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:06:13] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.019 0.024
+2025-01-09 04:06:13,388 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:06:13] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.002 0.001
+2025-01-09 04:06:14,634 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:06:14] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.012 0.021
+2025-01-09 04:06:14,979 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:06:14] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.028
+2025-01-09 04:08:20,876 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:20] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.003 0.015
+2025-01-09 04:08:21,137 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:21] "POST /web/action/load HTTP/1.1" 200 - 9 0.006 0.011
+2025-01-09 04:08:21,344 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:21] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.002 0.004
+2025-01-09 04:08:21,352 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:21] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.014
+2025-01-09 04:08:21,377 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:21] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.002 0.007
+2025-01-09 04:08:21,383 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:21] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.006 0.014
+2025-01-09 04:08:21,497 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:21] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.024 0.015
+2025-01-09 04:08:21,671 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:21] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.002 0.003
+2025-01-09 04:08:21,704 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:21] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.037
+2025-01-09 04:08:21,997 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:21] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.004
+2025-01-09 04:08:23,179 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:23] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 04:08:24,397 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:24] "POST /web/action/load HTTP/1.1" 200 - 8 0.003 0.008
+2025-01-09 04:08:24,654 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:24] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 04:08:24,716 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:24] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 04:08:25,970 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:25] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.000 0.006
+2025-01-09 04:08:26,291 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 04:08:26,961 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:26] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.327 0.348
+2025-01-09 04:08:29,845 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:29] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.002 0.014
+2025-01-09 04:08:30,319 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:30] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.001 0.006
+2025-01-09 04:08:30,327 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:30] "POST /web/action/load HTTP/1.1" 200 - 9 0.009 0.007
+2025-01-09 04:08:30,365 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:30] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.005 0.017
+2025-01-09 04:08:30,370 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:30] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.012 0.013
+2025-01-09 04:08:30,576 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:30] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.001
+2025-01-09 04:08:30,685 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:30] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.017 0.014
+2025-01-09 04:08:30,698 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:30] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.001 0.010
+2025-01-09 04:08:30,724 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:30] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.036
+2025-01-09 04:08:31,021 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:31] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.005
+2025-01-09 04:08:32,418 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:32] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 04:08:40,415 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:40] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.023 0.018
+2025-01-09 04:08:40,644 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:40] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.001 0.004
+2025-01-09 04:08:47,059 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:47] "GET / HTTP/1.1" 303 - 2 0.002 0.006
+2025-01-09 04:08:47,395 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:47] "GET /web HTTP/1.1" 200 - 9 0.004 0.009
+2025-01-09 04:08:47,641 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:47] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.006
+2025-01-09 04:08:47,843 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:47] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.009
+2025-01-09 04:08:47,868 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:47] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.004
+2025-01-09 04:08:47,906 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:47] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.019 0.023
+2025-01-09 04:08:47,926 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:47] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.006 0.054
+2025-01-09 04:08:47,982 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:47] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.002 0.007
+2025-01-09 04:08:48,170 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:48] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.003 0.008
+2025-01-09 04:08:48,178 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:48] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.004 0.015
+2025-01-09 04:08:48,490 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:48] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.002
+2025-01-09 04:08:50,035 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:50] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.002
+2025-01-09 04:08:53,109 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:53] "POST /web/action/load HTTP/1.1" 200 - 8 0.003 0.008
+2025-01-09 04:08:53,442 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:53] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 1 0.000 0.004
+2025-01-09 04:08:53,719 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:53] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 8 0.007 0.008
+2025-01-09 04:08:53,759 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:53] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.000 0.005
+2025-01-09 04:08:54,081 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:54] "POST /base_setup/data HTTP/1.1" 200 - 5 0.002 0.001
+2025-01-09 04:08:57,600 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:57] "POST /web/dataset/call_kw/res.config.settings/web_save HTTP/1.1" 200 - 24 0.017 0.020
+2025-01-09 04:08:57,941 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:57] "POST /web/action/load HTTP/1.1" 200 - 11 0.002 0.011
+2025-01-09 04:08:58,258 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:58] "POST /web/dataset/call_kw/res.users/get_views HTTP/1.1" 200 - 44 0.027 0.053
+2025-01-09 04:08:58,291 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:58] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 15 0.008 0.010
+2025-01-09 04:08:58,580 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:08:58] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.002
+2025-01-09 04:09:04,959 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:04] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 8 0.004 0.012
+2025-01-09 04:09:13,284 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:13] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.003 0.014
+2025-01-09 04:09:13,737 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:13] "POST /web/action/load HTTP/1.1" 200 - 9 0.005 0.012
+2025-01-09 04:09:13,765 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:13] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.006 0.017
+2025-01-09 04:09:13,778 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:13] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.004 0.009
+2025-01-09 04:09:13,797 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:13] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.017
+2025-01-09 04:09:13,986 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:13] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 04:09:14,111 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:14] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.013 0.022
+2025-01-09 04:09:14,123 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:14] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.005 0.007
+2025-01-09 04:09:14,157 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:14] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.044
+2025-01-09 04:09:14,456 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:14] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.007
+2025-01-09 04:09:16,055 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:16] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.002
+2025-01-09 04:09:17,203 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:17] "POST /web/action/load HTTP/1.1" 200 - 8 0.004 0.006
+2025-01-09 04:09:17,458 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:17] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.001 0.001
+2025-01-09 04:09:17,536 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:17] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.001 0.001
+2025-01-09 04:09:18,963 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:18] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.002 0.006
+2025-01-09 04:09:19,299 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 04:09:19,990 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:09:19] "POST /web/dataset/call_button HTTP/1.1" 200 - 1404 0.346 0.350
+2025-01-09 04:28:58,393 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:28:58] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.021 0.088
+2025-01-09 04:28:58,591 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:28:58] "POST /web/action/load HTTP/1.1" 200 - 9 0.025 0.015
+2025-01-09 04:28:58,872 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:28:58] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.005 0.010
+2025-01-09 04:28:59,002 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:28:59] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.005 0.078
+2025-01-09 04:28:59,017 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:28:59] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.006 0.108
+2025-01-09 04:28:59,026 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:28:59] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.027 0.095
+2025-01-09 04:28:59,328 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:28:59] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.004
+2025-01-09 04:28:59,345 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:28:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.004
+2025-01-09 04:28:59,391 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:28:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.031 0.020
+2025-01-09 04:28:59,409 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:28:59] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.009 0.059
+2025-01-09 04:29:00,977 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:29:00] "POST /web/action/load HTTP/1.1" 200 - 8 0.001 0.007
+2025-01-09 04:29:01,301 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:29:01] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.001 0.003
+2025-01-09 04:29:01,456 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:29:01] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 04:29:01,549 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:29:01] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 04:29:02,481 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:29:02] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.001 0.005
+2025-01-09 04:29:02,806 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 04:29:03,348 10896 WARNING odoo_test odoo.modules.module: Missing `license` key in manifest for 'school', defaulting to LGPL-3 
+2025-01-09 04:29:03,517 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:29:03] "POST /web/dataset/call_button HTTP/1.1" 200 - 1419 0.359 0.357
+2025-01-09 04:32:00,118 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:00] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.006 0.011
+2025-01-09 04:32:00,377 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:00] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.007
+2025-01-09 04:32:00,633 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:00] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.003 0.017
+2025-01-09 04:32:00,634 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:00] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.003 0.017
+2025-01-09 04:32:00,654 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:00] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.008 0.007
+2025-01-09 04:32:00,659 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:00] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.005 0.009
+2025-01-09 04:32:00,709 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:00] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 04:32:00,985 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:00] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.007
+2025-01-09 04:32:01,010 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:01] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.032 0.018
+2025-01-09 04:32:01,023 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:01] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.061
+2025-01-09 04:32:02,505 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:02] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.002
+2025-01-09 04:32:04,965 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:04] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.003 0.010
+2025-01-09 04:32:05,226 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:05] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.007
+2025-01-09 04:32:05,408 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:05] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.002 0.006
+2025-01-09 04:32:05,421 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:05] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.003 0.018
+2025-01-09 04:32:05,447 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.008
+2025-01-09 04:32:05,451 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:05] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.007 0.012
+2025-01-09 04:32:05,585 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.017 0.014
+2025-01-09 04:32:05,748 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:05] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.002 0.005
+2025-01-09 04:32:05,781 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:05] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.039
+2025-01-09 04:32:06,072 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:06] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.004
+2025-01-09 04:32:07,290 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:07] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 04:32:28,943 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:28] "POST /web/dataset/call_button HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 04:32:29,213 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:29] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 6 0.003 0.007
+2025-01-09 04:32:29,304 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:29] "POST /web/dataset/call_kw/ir.module.module/web_read HTTP/1.1" 200 - 10 0.007 0.034
+2025-01-09 04:32:29,565 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:29] "GET /web/bundle/web_editor.backend_assets_wysiwyg?lang=en_US&debug=1 HTTP/1.1" 200 - 7 0.003 0.032
+2025-01-09 04:32:30,620 10896 INFO odoo_test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/27b7f9c/web_editor.backend_assets_wysiwyg.min.css (id:195) 
+2025-01-09 04:32:30,668 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:30] "GET /web/assets/27b7f9c/web_editor.backend_assets_wysiwyg.min.css HTTP/1.1" 200 - 8 0.015 0.998
+2025-01-09 04:32:31,236 10896 INFO odoo_test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/45f16cc/web_editor.backend_assets_wysiwyg.min.js (id:196) 
+2025-01-09 04:32:31,370 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:31] "GET /web/assets/45f16cc/web_editor.backend_assets_wysiwyg.min.js HTTP/1.1" 200 - 8 0.015 0.781
+2025-01-09 04:32:31,444 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:31] "GET /web/image?model=ir.module.module&id=637&field=icon_image&unique=1736396942000 HTTP/1.1" 200 - 3 0.002 0.011
+2025-01-09 04:32:34,793 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.006
+2025-01-09 04:32:34,840 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.033 0.021
+2025-01-09 04:32:34,861 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:32:34] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.007 0.062
+2025-01-09 04:49:07,568 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:07] "POST /web/action/load HTTP/1.1" 200 - 8 0.005 0.009
+2025-01-09 04:49:07,823 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:07] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 04:49:07,901 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:07] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.001 0.003
+2025-01-09 04:49:09,151 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:09] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.002 0.005
+2025-01-09 04:49:09,463 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 04:49:10,225 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:10] "POST /web/dataset/call_button HTTP/1.1" 200 - 1405 0.385 0.381
+2025-01-09 04:49:10,948 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:10] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.006 0.018
+2025-01-09 04:49:11,765 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:11] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.024 0.149
+2025-01-09 04:49:11,777 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:11] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.006 0.135
+2025-01-09 04:49:11,780 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:11] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.009 0.134
+2025-01-09 04:49:11,817 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:11] "POST /web/action/load HTTP/1.1" 200 - 9 0.043 0.183
+2025-01-09 04:49:11,861 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:11] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.007
+2025-01-09 04:49:12,124 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:12] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.005
+2025-01-09 04:49:12,152 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:12] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 04:49:12,231 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:12] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.030 0.022
+2025-01-09 04:49:12,252 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:12] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.007 0.065
+2025-01-09 04:49:14,012 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:49:14] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.002
+2025-01-09 04:50:57,828 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:50:57] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.003 0.010
+2025-01-09 04:50:58,086 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:50:58] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.008
+2025-01-09 04:50:58,321 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:50:58] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.002 0.013
+2025-01-09 04:50:58,321 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:50:58] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.009 0.006
+2025-01-09 04:50:58,355 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:50:58] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 04:50:58,383 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:50:58] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.010 0.022
+2025-01-09 04:50:58,442 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:50:58] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.026
+2025-01-09 04:50:58,665 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:50:58] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.004 0.008
+2025-01-09 04:50:58,690 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:50:58] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.013 0.020
+2025-01-09 04:50:59,053 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:50:59] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.003
+2025-01-09 04:51:00,244 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:00] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2025-01-09 04:51:00,637 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:00] "POST /web/action/load HTTP/1.1" 200 - 8 0.003 0.013
+2025-01-09 04:51:00,872 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:00] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.000 0.003
+2025-01-09 04:51:00,965 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:00] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 04:51:01,854 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:01] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 3 0.002 0.006
+2025-01-09 04:51:02,167 10896 INFO odoo_test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-01-09 04:51:02,889 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:02] "POST /web/dataset/call_button HTTP/1.1" 200 - 1405 0.357 0.369
+2025-01-09 04:51:04,761 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:04] "GET /web?debug=1 HTTP/1.1" 200 - 9 0.004 0.016
+2025-01-09 04:51:05,241 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:05] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 5 0.005 0.009
+2025-01-09 04:51:05,245 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:05] "POST /web/action/load HTTP/1.1" 200 - 9 0.005 0.014
+2025-01-09 04:51:05,277 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:05] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.005 0.012
+2025-01-09 04:51:05,286 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:05] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.009 0.017
+2025-01-09 04:51:05,498 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:05] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.002 0.006
+2025-01-09 04:51:05,586 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.002
+2025-01-09 04:51:05,602 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:05] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.004
+2025-01-09 04:51:05,867 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.027 0.021
+2025-01-09 04:51:05,882 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:05] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.059
+2025-01-09 04:51:07,484 10896 INFO odoo_test werkzeug: 127.0.0.1 - - [09/Jan/2025 04:51:07] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.001
+2025-01-09 04:55:02,799 10896 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "C:\Odoo17\server\odoo\addons\bus\models\bus.py", line 254, in run
+    self.loop()
+  File "C:\Odoo17\server\odoo\addons\bus\models\bus.py", line 239, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2025-01-09 04:55:03,065 10896 INFO ? odoo.service.server: Initiating shutdown 
+2025-01-09 04:55:03,065 10896 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-01-09 04:55:03,364 10896 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 5 connections  
